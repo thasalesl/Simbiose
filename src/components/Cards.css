@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+* {
+  font-family: "Open Sans", serif;
+  box-sizing: border-box; }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  padding: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  padding: 0 2%; }
+  .cards div {
+    width: 50%;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 20px;
+    background-color: #FFFFFF; }
+
+.card {
+  padding: 4%;
+  border: 1px solid #e1e1e1;
+  justify-content: space-between;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px -13px rgba(0, 0, 0, 0.75);
+  height: 100%;
+  display: flow-root; }
+  .card:hover {
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2); }
+
+.nome {
+  color: #6f7d82;
+  font-size: 20px; }
+
+.enquadramento {
+  color: #959ca3;
+  font-size: 15px; }
+
+.proponente {
+  color: #000000;
+  font-size: 15px; }
+
+.municipio {
+  color: #000000;
+  display: inline;
+  font-size: 15px; }
+
+.valor_aprovado {
+  color: #73928C;
+  background: linear-gradient(to right, #E3EDEC, #FFFFFF);
+  border-radius: 10px;
+  padding: 7px;
+  font-size: 15px; }
+
+.valor_captado {
+  color: #76838B;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 7px;
+  background: linear-gradient(to right, #E0EDF4, #FFFFFF); }
+
+.apoiadores {
+  font-size: 15px;
+  padding-bottom: 60px; }
+
+b {
+  float: right; }
+
+Button {
+  border: 2px;
+  border-color: #FFFFFF;
+  padding: 8px 20px;
+  margin: 0 2px;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #F1F2F6;
+  color: #204756;
+  font-weight: bold;
+  float: right;
+  box-shadow: 9px 12px 11px -13px rgba(0, 0, 0, 0.75); }
+  Button.lei {
+    border: 5px;
+    padding: 4px 15px;
+    cursor: default;
+    background-color: #A2BFCD;
+    color: #FFFFFF;
+    font-weight: bold;
+    float: right; }
+  Button.icon {
+    float: left;
+    padding-left: 20px;
+    border: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75); }
